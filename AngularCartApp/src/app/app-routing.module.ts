@@ -4,7 +4,8 @@ import { PostsComponent } from './components/posts/posts.component';
 
 
 const routes: Routes = [
-  {path:'posts', component:PostsComponent}
+  {path:'', component:PostsComponent},
+  {path:'**' , component:PostsComponent}
 ];
 
 @NgModule({
